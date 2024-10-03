@@ -1,0 +1,160 @@
+body {
+    background-color: #f3eae3 !important;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.prod-card {
+    width: 20.5rem;
+
+}
+
+.prod-subtitle {
+    font-family: "Old Standard TT", serif;
+    text-transform: uppercase;
+    color:  #cccdbb;
+    line-height: 2rem;
+}
+
+.prod-title {
+    font-family: "Lato", sans-serif;
+}
+
+.prod-desc {
+    color: #b2ae9d;
+}
+
+.prod-price {
+    color: #3d8168;
+    font-family: "Fredoka", sans-serif;
+    font-size: 2rem;
+}
+
+.prod-discount {
+    color:#a9aeb2;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: #f3eae3 !important;
+    }
+
+    main {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+
+    .prod-card {
+        width: 40rem;
+        
+    }
+
+    .prod-subtitle {
+        font-family: "Cinzel", serif;
+        text-transform: uppercase;
+        color:  #cccdbb;
+    }
+
+    .prod-desc {
+        color: #b2ae9d;
+        font-size:0.9rem;
+    }
+
+    .prod-price {
+        color: #3d8168;
+        font-family: "Fredoka", sans-serif;
+        word-spacing: 0.5rem;
+        line-height: 5rem;
+    }
+
+    .prod-discount {
+        color:#a9aeb2;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #f3eae3 !important;
+    }
+
+    main {
+        display: grid;
+        place-items: center;
+        height: 80vh;
+    }
+
+    .prod-card {
+        width: 20rem;
+        
+    }
+
+    .prod-subtitle {
+        font-family: "Cinzel", serif;
+        text-transform: uppercase;
+        color:  #cccdbb;
+    }
+
+    .prod-desc {
+        color: #b2ae9d;
+    }
+
+    .prod-price {
+        color: #3d8168;
+        font-family: "Fredoka", sans-serif;
+        word-spacing: 0.5rem;
+        line-height: 5rem;
+    }
+
+    .prod-discount {
+        color:#a9aeb2;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    body {
+        background-color: #f3eae3 !important;
+    }
+
+    main {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+
+    .prod-card {
+        width: 40rem;
+        
+    }
+
+    .prod-subtitle {
+        font-family: "Cinzel", serif;
+        text-transform: uppercase;
+        color:  #cccdbb;
+        line-height: 5rem;
+    }
+
+    .prod-desc {
+        color: #b2ae9d;
+        font-size:0.9rem;
+    }
+
+    .prod-price {
+        color: #3d8168;
+        font-family: "Fredoka", sans-serif;
+        word-spacing: 0.5rem;
+        line-height: 5rem;
+    }
+
+    .prod-discount {
+        color:#a9aeb2;
+        font-size: 1rem;
+    }   
+}
