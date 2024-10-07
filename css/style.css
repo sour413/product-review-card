@@ -14,18 +14,22 @@ main {
 }
 
 .prod-subtitle {
-    font-family: "Old Standard TT", serif;
+    font-family: "Montserrat", sans-serif;
+    color:  hsl(228, 12%, 48%);
     text-transform: uppercase;
-    color:  #cccdbb;
+    font-weight: 500;
+    font-size:0.9rem;
+    letter-spacing: 0.3rem;
     line-height: 2rem;
 }
 
 .prod-title {
-    font-family: "Lato", sans-serif;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 }
 
 .prod-desc {
-    color: #b2ae9d;
+    color: hsl(228, 12%, 48%);
 }
 
 .prod-price {
@@ -56,9 +60,13 @@ main {
     }
 
     .prod-subtitle {
-        font-family: "Cinzel", serif;
+        font-family: "Montserrat", sans-serif;
+        color:  hsl(228, 12%, 48%);
         text-transform: uppercase;
-        color:  #cccdbb;
+        font-weight: 500;
+        font-size:0.9rem;
+        letter-spacing: 0.3rem;
+        line-height: 2rem;
     }
 
     .prod-desc {
@@ -96,9 +104,13 @@ main {
     }
 
     .prod-subtitle {
-        font-family: "Cinzel", serif;
-        text-transform: uppercase;
-        color:  #cccdbb;
+       font-family: "Montserrat", sans-serif;
+       color:  hsl(228, 12%, 48%);
+       text-transform: uppercase;
+       font-weight: 500;
+       font-size:0.9rem;
+       letter-spacing: 0.3rem;
+       line-height: 2rem;
     }
 
     .prod-desc {
@@ -135,20 +147,29 @@ main {
     }
 
     .prod-subtitle {
-        font-family: "Cinzel", serif;
+        font-family: "Montserrat", sans-serif;
+        color:  hsl(228, 12%, 48%);
         text-transform: uppercase;
-        color:  #cccdbb;
-        line-height: 5rem;
+        font-weight: 500;
+        font-size:0.9rem;
+        letter-spacing: 0.3rem;
+        line-height: 3.5rem;
+    }
+
+    .prod-title {
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        font-size: 2.7rem;
     }
 
     .prod-desc {
-        color: #b2ae9d;
+        color: hsl(228, 12%, 48%);
         font-size:0.9rem;
     }
 
     .prod-price {
         color: #3d8168;
-        font-family: "Fredoka", sans-serif;
+        font-family: "Montserrat", sans-serif;
         word-spacing: 0.5rem;
         line-height: 5rem;
     }
